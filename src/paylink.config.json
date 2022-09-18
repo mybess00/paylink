@@ -78,6 +78,12 @@
       "img": "./images/crypto/usdt.svg"
     },
     {
+      "id": "usdt-trc20",
+      "label": "USDT(TRC20)",
+      "value": "",
+      "img": "./images/crypto/usdt-trc20.svg"
+    },
+    {
       "id": "qvapay",
       "label": "QvaPay",
       "value": "",
