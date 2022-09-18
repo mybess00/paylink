@@ -29,13 +29,13 @@ function App() {
   return (
     <>
       <div className={Config.theme}>
+        <div className="main-card">
         <Hero
           src={Config.properties.hero}
           alt={Config.properties.alt}
           name={Config.properties.name}
           description={Config.properties.description}
         />
-
         <section id="social-media" className="d-flex justify-content-center mb-5">
           {Config.Social.map(
             (i) => i.link != "" && <SocialMedia label={i.label} type={i.type} href={i.link} key={i.label}></SocialMedia>
@@ -56,6 +56,7 @@ function App() {
             </sub>
           </a>
         </section>
+        </div>
       </div>
     </>
   );
