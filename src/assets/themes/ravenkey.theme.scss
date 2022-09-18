@@ -29,11 +29,11 @@
     }
   
     .payment-btn {
-      border-radius: var(--bs-border-radius-pill) !important;
-      padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
+      border-radius: 12px;
+      padding: 5px;
       margin-bottom: 1.5rem !important;
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-      background-color: #212121;
+      border: solid 3px #d1def5;
     }
   
     .payment-action-icon {
@@ -57,12 +57,12 @@
     }
   
     .payment-action-btn:hover {
-      background: #212121;
+      background: #2a4866;
     }
   
     .payment-action-btn:active {
-      background: #212121;
-      border: 1px solid #212121;
+      background: #2a4866;
+      border: 1px solid #2a4866;
     }
   
     .btn-primary {
@@ -106,11 +106,10 @@
   }
   @media (max-width: 767px){
     .ravenkey-theme {
-        padding: 5%;
-        
+        padding: 2%;
+
         #social-media{
             width: 90%;
-            background-color: red;
         }
     }
   }
