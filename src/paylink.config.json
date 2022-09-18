@@ -2,36 +2,37 @@
   "theme": "minimalist-dark-theme",
 
   "properties": {
-    "name": "Daniel Castillo",
-    "description": "Frontend web developer and tireless creator",
-    "alt": "Photo of Daniel Castillo",
-    "hero": "./images/daniel-castillo.png"
+    "name": "BitNautas",
+    "description": "Somos una comunidad de habla hispana enfocada en las criptomonedas, NFT, Web3, Blockchain y DeFi. Compartimos y debatimos sobre las noticias, proyectos blockchain y acontecimientos más relevantes de la industria de las criptomonedas.",
+    "alt": "BitNautas Photo",
+    "hero": "./images/bitnautas.png"
   },
 
   "Social": [
-    { "label": "Link", "type": "link", "link": "https://danielcastillop.netlify.app" },
-    { "label": "GitHub", "type": "github", "link": "https://github.com/dlcastillop" },
-    { "label": "Twitter", "type": "twitter", "link": "https://twitter.com/dlcastillop" },
-    { "label": "LinkedIn", "type": "linkedin", "link": "https://linkedin.com/in/dlcastillop" },
-    { "label": "Instagram", "type": "instagram", "link": "https://instagram.com/in/dlcastillop" },
+    { "label": "Link", "type": "link", "link": "https://bitnautas_cu.point.link/" },
+    { "label": "GitHub", "type": "github", "link": "" },
+    { "label": "Twitter", "type": "twitter", "link": "https://twitter.com/bitnautas_cu" },
+    { "label": "LinkedIn", "type": "linkedin", "link": "" },
+    { "label": "Instagram", "type": "instagram", "link": "https://www.instagram.com/bitnautas_cu" },
     { "label": "Discord", "type": "discord", "link": "" },
-    { "label": "Facebook", "type": "facebook", "link": "" },
+    { "label": "Facebook", "type": "facebook", "link": "https://www.facebook.com/BITNautascu-102795728729087/" },
     { "label": "Medium", "type": "medium", "link": "" },
     { "label": "Pinterest", "type": "pinterest", "link": "" },
     { "label": "Snapchat", "type": "snapchat", "link": "" },
-    { "label": "Telegram", "type": "telegram", "link": "" },
+    { "label": "Telegram", "type": "telegram", "link": "https://t.me/bitnautas_cu" },
+    { "label": "Telegram", "type": "telegram", "link": "https://t.me/bitnautas_cu_group" },
     { "label": "TikTok", "type": "tiktok", "link": "" },
     { "label": "Twitch", "type": "twitch", "link": "" },
     { "label": "Vimeo", "type": "vimeo", "link": "" },
     { "label": "WhatsApp", "type": "whatsapp", "link": "" },
-    { "label": "YouTube", "type": "youtube", "link": "" }
+    { "label": "YouTube", "type": "youtube", "link": "https://www.youtube.com/channel/UCWYC3pd9hjAYR61VXuPX9Yg" }
   ],
 
   "Payments": [
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "bc1qejahgjmqnmyrw7jvn0d7evfdq6ssjl3wq7hfle",
+      "value": "1AzydQiJLRDPHuHMMzNLL5RB7b5twupArs",
       "img": "./images/crypto/btc.svg"
     },
     {
@@ -55,7 +56,7 @@
     {
       "id": "eth",
       "label": "Ethereum",
-      "value": "0x59C864f658caD68A19a97499755080c056079988",
+      "value": "0xB3EA765D41f865080dAcF9697c3f0F761Eacab1c ",
       "img": "./images/crypto/eth.svg"
     },
     {
@@ -79,7 +80,7 @@
     {
       "id": "qvapay",
       "label": "QvaPay",
-      "value": "https://qvapay.com/payme/dlcastillop",
+      "value": "",
       "img": "./images/crypto/qvapay.svg"
     },
     {
