@@ -99,13 +99,13 @@
         width: 600px;
         margin: auto;
     }
-  }
-  @media (max-width: 767x){
-    .ravenkey-theme{
-        #social-media{
-            width: 90%;
-            background-color: #1b09a4;
+    @media (max-width: 767px){
+        .ravenkey-theme{
+            padding: 5%;
         }
-    }        
+            #social-media{
+                width: 90%;
+                background-color: #1b09a4;
+            }
+      }
   }
-  
