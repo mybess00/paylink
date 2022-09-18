@@ -9,22 +9,26 @@
     }
     #social-media{
         background-color: #000000b5;
+        padding-top: 0.35rem;
+        padding-bottom: 0.35rem;
+    }
+    #profile-section{
+        background-color: #000000b5;
     }
     .payment-btn {
-      border-radius: var(--bs-border-radius-pill) !important;
+      border-radius: 8px;
       padding: 0.4rem 0.7rem 0.4rem 0.7rem !important;
       margin-bottom: 1.5rem !important;
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-      background-color: #212121;
-    }
-    .pt-3{
-        background-color: #000000b5;
+      background-color: #212121de;
     }
     .payment-action-icon {
       color: white;
       font-size: 21px;
     }
-  
+    .mb-1{
+        margin-bottom: 0;
+    }
     .payment-label {
       text-align: center;
       padding-left: 35px;
