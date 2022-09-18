@@ -21,6 +21,7 @@
     .main-card{
       background-color: #00000063;
       border-radius: 35px;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.515) !important;
     }  
   
     .social-icon {
@@ -33,7 +34,7 @@
       padding: 5px;
       margin-bottom: 1.5rem !important;
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-      border: solid 3px #d1def5;
+      border: solid 2px #d1def5;
     }
   
     .payment-action-icon {
@@ -75,7 +76,7 @@
     }
   
     .modal-content {
-      background-color: #131212;
+      background-color: #141414;
     }
   
     .toast {
