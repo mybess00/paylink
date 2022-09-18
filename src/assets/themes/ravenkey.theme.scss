@@ -4,7 +4,7 @@
     animation: gradient-animation 24s ease infinite;
     color: white;
     min-height: 100vh;
-    padding: 15px 80px 15px 80px;
+    padding: 15px 160px 15px 160px;
 
     @keyframes gradient-animation {
         0% {
@@ -99,13 +99,18 @@
         width: 600px;
         margin: auto;
     }
-    @media (max-width: 767px){
-        .ravenkey-theme{
-            padding: 5%;
+
+    .pt-3{
+        padding: 0 10px 0 10px;
+    }
+  }
+  @media (max-width: 767px){
+    .ravenkey-theme {
+        padding: 5%;
+        
+        #social-media{
+            width: 90%;
+            background-color: red;
         }
-            #social-media{
-                width: 90%;
-                background-color: #1b09a4;
-            }
-      }
+    }
   }
