@@ -1,0 +1,117 @@
+.lovepet-theme {
+    background: linear-gradient(139deg,#232374,#1f5e6c,#1b09a4);
+    background-size: 180% 180%;
+    animation: gradient-animation 24s ease infinite;
+    color: black;
+    min-height: 100vh;
+    padding: 15px 160px 15px 160px;
+
+    @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+    .main-card{
+      background-color: #ffffff;
+      border-radius: 35px;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.515) !important;
+      background-image: url("../../../public/images/background/pet-bakcground.svg");
+    }  
+  
+    .social-icon {
+      color: black !important;
+      font-size: 25px;
+    }
+  
+    .payment-btn {
+      border-radius: 12px;
+      padding: 5px;
+      margin-bottom: 1.5rem !important;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+      border: solid 2px #d1def5;
+    }
+  
+    .payment-action-icon {
+      color: black;
+      font-size: 21px;
+    }
+  
+    .payment-label {
+      text-align: center;
+      padding-left: 35px;
+      color: black;
+    }
+  
+    .payment-img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .payment-action-btn {
+      border-radius: 6px;
+    }
+  
+    .payment-action-btn:hover {
+      background: #2a4866;
+    }
+  
+    .payment-action-btn:active {
+      background: #2a4866;
+      border: 1px solid #2a4866;
+    }
+  
+    .btn-primary {
+      border: none;
+      background-color: #1e1e1e;
+  
+      &:hover {
+        background-color: #2b2b2b;
+      }
+    }
+  
+    .modal-content {
+      background-color: #141414;
+    }
+  
+    .toast {
+      padding: 5px 0px 5px 0px;
+      background-color: #212121 !important;
+    }
+  
+    .toast-header {
+      background-color: #212121 !important;
+      border: unset !important;
+      color: white;
+      .btn-close {
+        filter: invert(1) grayscale(100%) brightness(200%);
+      }
+    }
+  
+    .paylink-link:hover {
+      color: white !important;
+    }
+    #social-media{
+        width: 600px;
+        margin: auto;
+    }
+
+    .pt-3{
+        padding: 0 10px 0 10px;
+    }
+  }
+  @media (max-width: 767px){
+    .lovepet-theme {
+        padding: 2%;
+
+        #social-media{
+            width: 90%;
+        }
+    }
+  }
