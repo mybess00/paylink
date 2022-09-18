@@ -89,5 +89,14 @@
     .paylink-link:hover {
       color: white !important;
     }
+    #social-media{
+        width: 450px;
+        margin: auto;
+    }
+    @media (max-width: 7678x){
+        #social-media{
+            width: 90%;
+        }
+    }
   }
   
