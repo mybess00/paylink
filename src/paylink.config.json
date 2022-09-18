@@ -2,10 +2,10 @@
   "theme": "ravenkey-theme",
 
   "properties": {
-    "name": "Binestar Animal Cuba",
+    "name": "BitNautas",
     "description": "Somos una comunidad de habla hispana enfocada en las criptomonedas, NFT, Web3, Blockchain y DeFi. Compartimos y debatimos sobre las noticias, proyectos blockchain y acontecimientos más relevantes de la industria de las criptomonedas.",
-    "alt": "BAC logo",
-    "hero": "./images/bac-cuba.png"
+    "alt": "BitNautas Photo",
+    "hero": "./images/bitnautas.png"
   },
 
   "Social": [
